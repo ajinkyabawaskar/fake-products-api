@@ -1,0 +1,11 @@
+{
+    "men": [{
+        "brand": "HERE&NOW",
+        "name": "Men Solid Round Neck T Shirt",
+        "price": {
+            "mrp": 599,
+            "selling": 239
+        },
+        "image": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/12816474/2020/11/24/133867ad-3fb8-4f4a-b9fd-2f76e76912351606200970163-HERENOW-Men-Tshirts-3791606200968862-1.jpg"
+    }]
+}
