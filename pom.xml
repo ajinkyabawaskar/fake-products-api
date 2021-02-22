@@ -70,6 +70,8 @@
 			<optional>true</optional>
 		</dependency>
 
+
+
 	</dependencies>
 
 	<build>
@@ -89,6 +91,9 @@
 								<java.source>${maven.compiler.source}</java.source>
 								<java.target>${maven.compiler.target}</java.target>
 							</additionalProperties>
+							<processTypes>
+								<web>java $JAVA_OPTS -cp target/classes:target/dependency/* Main</web>
+							</processTypes>
 						</configuration>
 					</execution>
 				</executions>
