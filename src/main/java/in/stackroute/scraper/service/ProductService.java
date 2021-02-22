@@ -1,10 +1,10 @@
-package in.stackroute.scraper.repository;
+package in.stackroute.scraper.service;
 
 import java.util.List;
 
 import in.stackroute.scraper.entity.Product;
 
-public interface ProductRepository {
+public interface ProductService {
 
 	List<Product> findAll();
 
@@ -17,5 +17,4 @@ public interface ProductRepository {
 	Product findById(Long id);
 
 	void saveAll(List<Product> products);
-
 }
